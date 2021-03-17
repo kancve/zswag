@@ -6,6 +6,7 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 add_library(zswagcl SHARED
   src/base64.cpp
   #src/http-service.cpp
+  src/zsr-client.cpp
   src/openapi-client.cpp
   src/openapi-config.cpp
   src/openapi-parameter-helper.cpp
